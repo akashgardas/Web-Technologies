@@ -1,0 +1,70 @@
+body {
+    background-color: lightgrey;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+div.container1 {
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(3, auto);
+    /* gap: 10px; */
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+}
+
+div.container1 div {
+    background-color: yellowgreen;
+    color: red;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+.header {
+    grid-area: header;
+    background-color: green;
+}
+
+.nav {
+    grid-area: nav;
+    background-color: blue;
+}
+
+.content {
+    grid-area: content;
+    background-color: white;
+}
+
+.ad {
+    grid-area: ad;
+    background-color: red;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: black;
+}
+
+div.container2 {
+    display: grid;
+    background-color: darkred;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, 100px);
+    grid-template-areas: 
+    "header header header"
+    "nav content ad"
+    "footer footer footer";
+    gap: 5px;
+    border-radius: 10px;
+    padding:10px;
+}
+
+div.container2 div {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
