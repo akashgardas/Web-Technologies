@@ -1,0 +1,64 @@
+body {
+    background-color: floralwhite;
+    font-family: sans-serif;
+}
+
+div.container1 {
+    display: flex;
+    background-color: rgba(50, 182, 235, 0.678);
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    padding: 10px 0;
+    border-radius: 3px;
+    align-items: center;
+}
+
+div.container1 a {
+    background-color: rgb(72, 183, 235);
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid rgb(37, 84, 184);
+    border-radius: 20px;
+    margin: auto 20px;
+}
+
+div.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: indigo;
+    border: 5px double rgb(40, 6, 66);
+    border-radius: 10px;
+}
+
+div.container2 div {
+    background-color: darkorange;
+    padding: 20px 40px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+div.container3 {
+    display: flex;
+    border-width: 5px;
+    border-style: solid;
+    border-color: yellowgreen;
+    border-radius: 10px;
+}
+
+div.container3 div {
+    margin: 5px;
+    border-radius: 5px;
+}
+
+div.container3 .side-bar {
+    background-color: lightgreen;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+div.container3 .content-area {
+    background-color: palegreen;
+    padding: 20px;
+    flex-grow: 3;
+}
