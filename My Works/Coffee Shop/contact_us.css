@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: auto;
+}
+
+/* To make the nav fixed when it reaches top */
+
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+main {
+    background-image: url(./images/coffee-shop.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3% 5%;
+    row-gap: 20px;
+    column-gap: 20px;
+    font-size: larger;
+    color: black;
+}
+
+.contact-info div {
+    background-color: rgba(212, 168, 111, 0.903);
+    padding: 1% 2%;
+    width: 20%;
+    min-width: 200px;
+    border-radius: 2px;
+}
+
+.contact-info h4, p {
+    margin: 10px 0;
+}
+
+.contact-info h4 {
+    font-family: cursive;
+}
+
+.contact-info p {
+    font-family: monospace;
+}
+
+.feedback-form {
+    padding: 20px 20%;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.715);
+    padding: 20px;
+    font-family: sans-serif;
+    color: black;
+    border-radius: 5px;
+}
+
+.feedback-form label, input, textarea {
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: large;
+    padding: 0.5rem;
+}
+
+.feedback-form input, textarea {
+    font-family: monospace;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgba(237, 237, 237, 0.866);
+}
+
+.feedback-form textarea {
+    resize: none;
+}
+
+.form-container button {
+    font-size: larger;
+    font-family: sans-serif;
+    padding: 0.5rem 0.7rem;
+    background-color: burlywood;
+    border-radius: 5px;
+}
