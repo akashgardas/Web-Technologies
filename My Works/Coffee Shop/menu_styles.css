@@ -9,17 +9,21 @@ main {
     align-items: center;
 }
 
+/* Coffee Display Image - Optional*/
+/* 
 #coffee-display {
     height: 200px;
     width: auto;
     border-radius: 20px;
     margin-top: 18px;
     border: 2px solid white;
-}
+} 
+*/
+
 section {
     background-color: rgba(255, 220, 181, 0.633);
     border-radius: 20px;
-    min-width: 80%;
+    max-width: 80%;
     margin: 10px 0 18px 0;
     color: black;
 }
@@ -29,7 +33,7 @@ section {
     flex-wrap: wrap;
     align-items:baseline;
     overflow: hidden;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .menu-items figure {
