@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    height: 100vh;
+
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    margin: 0;
+}
+
+div.container {
+    background-color: white;
+    vertical-align: middle;
+    width: 500px;
+    height: 400px;
+    padding: 30px;
+}
+
+div.header{
+    background-color: red;
+    text-align: center;
+}
+
+div.score {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+    padding: 1%;
+}
+
+div.dice {
+    background-color: blue;
+    height: 40%;
+    margin: 5% 0;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(2, 50%);
+}
+
+div.dice .die {
+    background-color: white;
+    margin:auto 25%;
+    width: 50%;
+    height: 44px;
+
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+}
+
+/* .one {
+    grid-template-areas: 
+    '. . .'
+    '. dot .'
+    '. . .';
+} */
+
+.two {
+    grid-template-areas:
+    'dot . .'
+    '. . .'
+    '. . dot';
+}
+
+.dot {
+    background-color: black;
+    border-radius: 50%;
+    width: 75%;
+    height: 75%;
+    margin: auto;
+    grid-area: dot;
+}
