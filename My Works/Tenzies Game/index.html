@@ -4,31 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tenzies Game</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container">
-      <h1>Tenzi</h1>
-      <p>
-        Roll until all dice are the same. Click each die to freeze it at its
-        current value between rolls. Try to get the fastest time!
-      </p>
-      <h6>Rolls</h6>
-      <p>0</p>
-      <h6>Best Time</h6>
-      <p>s</p>
-      <h6>Time</h6>
-      <p>0s</p>
+      <div class="header">
+        <h1>Tenzi</h1>
+        <p>
+          Roll until all dice are the same. Click each die to freeze it at its
+          current value between rolls. Try to get the fastest time!
+        </p>
+      </div>
 
-      <div class="dice"></div>
-      <div class="dice"></div>
-      <div class="dice"></div>
-      <div class="dice"></div>
-      <div class="dice"></div>
-      <div class="dice"></div>
-      <div class="dice"></div>
-      <div class="dice"></div>
-      <div class="dice"></div>
-      <div class="dice"></div>
+      <div class="score">
+        <div>
+          <h4>Rolls</h4>
+          <p>0</p>
+        </div>
+
+        <div>
+          <h4>Best Time</h4>
+          <p>s</p>
+        </div>
+
+        <div>
+          <h4>Time</h4>
+          <p>0s</p>
+        </div>
+      </div>
+
+      <div class="dice">
+        <div class="die one">
+            <div class="dot"></div>
+        </div>
+        <div class="die two">
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+        <div class="die one">
+            <div class="dot"></div>
+        </div>
+        <div class="die two">
+            <div class="dot"></div>
+        </div>
+        <div class="die"></div>
+        <div class="die"></div>
+        <div class="die"></div>
+        <div class="die"></div>
+        <div class="die"></div>
+        <div class="die"></div>
+      </div>
       <button type="button">Roll Dice</button>
     </div>
   </body>
