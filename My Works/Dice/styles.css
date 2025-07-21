@@ -1,0 +1,48 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(1, 1, 77);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    background-color: whitesmoke;
+    height: 300px;
+    width: 500px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.die {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.46);
+    padding: 15px;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 7px;
+}
+
+.dot {
+    background-color: black;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: red;
+}
