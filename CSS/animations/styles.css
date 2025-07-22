@@ -1,0 +1,50 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid black;
+    width: 20rem;
+    height: 20rem;
+    margin:auto;
+
+    display: flex;
+    align-items: center;
+}
+
+@keyframes bounce {
+    0% {
+        top: 0rem;
+        left: 0rem;
+    }
+    25% {
+        top: -9rem;
+        left: 9rem;
+    }
+    50% {
+        top: 0rem;
+        left: 18rem;
+    }
+    75% {
+        top: 9rem;
+        left: 9rem;
+    }
+    100% {
+        top: 0rem;
+        left: 0rem;
+    }
+}
+
+.ball {
+    background-color: rgb(1, 115, 223);
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid rgb(1, 53, 150);
+    border-radius: 50%;
+
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: 3;
+    animation-timing-function: linear;
+    position: relative;
+}
