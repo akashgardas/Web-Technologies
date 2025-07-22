@@ -1,0 +1,109 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container p {
+    font-family: sans-serif;
+    font-size: 15rem;
+    font-weight: bolder;
+    margin: 0;
+    color: white;
+}
+
+#c1 {
+    animation-name: cascade;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    position: relative;
+}
+
+#c2 {
+    animation-name: cascade;
+    animation-duration: 1.5s;
+    animation-delay: 0.1s;
+    animation-timing-function: ease-out;
+    position: relative;
+}
+
+#c3 {
+    animation-name: cascade;
+    animation-duration: 1.5s;
+    animation-delay: 0.2s;
+    animation-timing-function: ease-out;
+    position: relative;
+}
+
+#c4 {
+    animation-name: cascade;
+    animation-duration: 1.5s;
+    animation-delay: 0.3s;
+    animation-timing-function: ease-out;
+    position: relative;
+}
+
+#c5 {
+    animation-name: cascade;
+    animation-duration: 1.5s;
+    animation-delay: 0.4s;
+    animation-timing-function: ease-out;
+    position: relative;
+}
+
+#c6 {
+    animation-name: cascade;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out;
+    position: relative;
+}
+
+@keyframes cascade {
+    0% {
+        color: violet;
+        top: -10rem;
+    }
+    14% {
+        color: indigo;
+    }
+    28% {
+        color: blue;
+    }
+    42% {
+        color: green;
+    }
+    56% {
+        color: yellow;
+    }
+    70% {
+        color: orange
+    }
+    75% {
+        top: 0rem;
+    }
+    80% {
+        top: -2rem;
+    }
+    90% {
+        top: -1rem;
+    }
+    100% {
+        color: red;
+        top: 0rem;
+    }
+}
