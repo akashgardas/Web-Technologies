@@ -19,27 +19,27 @@
       <div class="score">
         <div>
           <h4>Rolls</h4>
-          <p>0</p>
+          <p id="rolls">0</p>
         </div>
 
         <div>
           <h4>Best Time</h4>
-          <p>s</p>
+          <p id="best-time">s</p>
         </div>
 
         <div>
           <h4>Time</h4>
-          <p>0s</p>
+          <p id="time">0s</p>
         </div>
       </div>
 
       <div class="dice-container">
-        <div class="die freeze">
+        <div class="die">
           <div class=""></div>
           <div></div>
           <div class=""></div>
           <div class=""></div>
-          <div class="dot red"></div>
+          <div class="dot"></div>
           <div class=""></div>
           <div class=""></div>
           <div></div>
@@ -100,7 +100,7 @@
           <div></div>
           <div class="dot"></div>
         </div>
-        <div class="die freeze">
+        <div class="die">
           <div class="dot"></div>
           <div></div>
           <div class="dot"></div>
@@ -145,7 +145,9 @@
           <div class="dot"></div>
         </div>
       </div>
-      <button type="button">Roll Dice</button>
+      <button type="button" id="roll-dice-button">Roll Dice</button>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
