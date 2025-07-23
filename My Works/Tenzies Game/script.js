@@ -1,9 +1,6 @@
 'use strict';
 
 /*
-
-1:15pm - 2:15pm
-
 GAME LOGIC
     1. Click the button to roll the dice.
     2. 'Rolls' counts the number of times rolled.
