@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BootStrap Component - Accordion</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <h1 class="text-center">Accordion</h1>
+
+    <div class="accordion" id="accordionPractice">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button type="button" class="accordion-button" data-bs-target="#collapseOne" data-bs-toggle="collapse">Accordion Item</button>
+        </h2>
+        <div class="accordion-collapse collapse" id="collapseOne" data-bs-parent="#accordionPractice">
+          <div class="accordion-body">This is an <strong>Accordion</strong></div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button type="button" class="accordion-button" data-bs-target="#accordionClasses" data-bs-toggle="collapse">Accordion Classes</button>
+        </h2>
+        <div class="accordion-collapse collapse" id="accordionClasses" data-bs-parent="#accordionPractice">
+            <div class="accordion-body">
+                <h6>Classes Used:</h6>
+                <ul>
+                    <li>accordion</li>
+                    <li>accordion-item</li>
+                    <li>accordion-header</li>
+                    <li>accordion-body</li>
+                    <li>accordion-collapse</li>
+                    <li>accordion-button</li>
+                </ul>
+            </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button type="button" class="accordion-button" data-bs-target="#dataBsRequired" data-bs-toggle="collapse">data-bs required fo this</button>
+        </h2>
+        <div class="accordion-collapse collapse" data-bs-parent="#accordionPractice" id="dataBsRequired">
+            <div class="accordion-body">
+                <h6>data bs required:</h6>
+                <ul>
+                    <li><strong>data-bs-target</strong> - Used in the button of the accordion header. It points to the accordion-collapse element's ID</li>
+                    <li><strong>data-bs-toggle</strong>- Used in the button of the accordion header to toggle the <i>collapse</i> from the accordion body</li>
+                    <li><strong>data-bs-parent</strong>- Used in the accordion-collapse element to achieve the functionality of only one accordion opens at a time. It points to the ID of the parent accordion container</li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
