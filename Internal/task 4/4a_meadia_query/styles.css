@@ -1,0 +1,28 @@
+body {
+    background-color: lightgray;
+    font-size: large;
+}
+
+/* For mobile devices */
+@media screen and (max-width: 576px) {
+    body {
+        background-color: lightblue;
+        font-size: small;
+    }
+}
+
+/* For Tablets */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    body {
+        background-color: lightgreen;
+        font-size: larger;
+    }
+}
+
+/* For Desktops */
+@media screen and (min-width: 993px) {
+    body {
+        background-color: lightpink;
+        font-size: x-large;
+    }
+}

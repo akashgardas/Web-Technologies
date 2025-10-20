@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    padding: 40px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .large {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .medium {
+        display: none;
+    }
+}

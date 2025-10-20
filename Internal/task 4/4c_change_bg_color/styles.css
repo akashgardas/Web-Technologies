@@ -1,0 +1,19 @@
+body {
+  background-color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+/* For tablets and smaller */
+@media (max-width: 900px) {
+  body {
+    background-color: lightyellow;
+  }
+}
+
+/* For mobiles */
+@media (max-width: 600px) {
+  body {
+    background-color: skyblue;
+  }
+}
