@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- XML Document for Book Information -->
+<!DOCTYPE Books [
+    <!ELEMENT Books (Book+)>
+    <!ELEMENT Book (Title, Author, ISBN, Publisher, Edition, Price)>
+    <!ELEMENT Title (#PCDATA)>
+    <!ELEMENT Author (#PCDATA)>
+    <!ELEMENT ISBN (#PCDATA)>
+    <!ELEMENT Publisher (#PCDATA)>
+    <!ELEMENT Edition (#PCDATA)>
+    <!ELEMENT Price (#PCDATA)>
+]>
+
+<Books>
+    <Book>
+        <Title>Java Programming</Title>
+        <Author>Akash</Author>
+        <ISBN>123456789234</ISBN>
+        <Publisher>Hello World</Publisher>
+        <Edition>11</Edition>
+        <Price>799</Price>
+    </Book>
+
+    <Book>
+        <Title>Java Programming</Title>
+        <Author>Akash</Author>
+        <ISBN>123456789234</ISBN>
+        <Publisher>Hello World</Publisher>
+        <Edition>11</Edition>
+        <Price>799</Price>
+    </Book>
+</Books>

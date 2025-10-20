@@ -1,0 +1,17 @@
+.box {
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    margin: 20px;
+}
+
+.item {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}

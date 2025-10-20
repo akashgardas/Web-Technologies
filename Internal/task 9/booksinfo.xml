@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Books xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="booksinfo.xsd">
+    <Book>
+        <Title>Java Programming</Title>
+        <Author>Akash</Author>
+        <ISBN>123456789234</ISBN>
+        <Publisher>Hello World</Publisher>
+        <Edition>11</Edition>
+        <Price>799</Price>
+    </Book>
+
+    <Book>
+        <Title>Java Programming</Title>
+        <Author>Akash</Author>
+        <ISBN>123456789234</ISBN>
+        <Publisher>Hello World</Publisher>
+        <Edition>11</Edition>
+        <Price>799</Price>
+    </Book>
+</Books>

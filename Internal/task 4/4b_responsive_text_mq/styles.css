@@ -1,0 +1,20 @@
+h2 {
+    font-size: large;
+    color: black;
+}
+
+/* Mediam size devices */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    h2 {
+        font-size: medium;
+        color: darkorange;
+    }
+}
+
+/* Large size devices */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    h2 {
+        font-size: larger;
+        color: darkgreen;
+    }
+}
